@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake Bakery Shop</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <a class="active" href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- Conteúdo da página principal -->
+    <div class="content">
+
+        <h2 class="titleTop">Cupcake Bakery Shop</h2>
+        <h3 class="titleBottom">Menu Tradicional</h3>
+
+        <!-- Primeira linha de cupcakes -->
+        <div class="first">
+
+            <div class="menu">
+                <img
+                    class="imgStamp"
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500"
+                    alt="Bolo de chocolate">
+                <input class="modalButton" type="button" value="Saiba mais..." id="CupFlavor1Button">
+            </div>
+
+            <div class="menu">
+                <img
+                    class="imgStamp"
+                    src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=500"
+                    alt="Cupcake decorado">
+                <input class="modalButton" type="button" value="Saiba mais..." id="CupFlavor2Button">
+            </div>
+
+            <div class="menu">
+                <img
+                    class="imgStamp"
+                    src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=500"
+                    alt="Cupcake com cobertura">
+                <input class="modalButton" type="button" value="Saiba mais..." id="CupFlavor3Button">
+            </div>
+
+        </div>
+
+        <!-- Segunda linha de cupcakes -->
+        <div class="second">
+
+            <div class="menu">
+                <img
+                    class="imgStamp"
+                    src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=500"
+                    alt="Cupcake de morango">
+                <input class="modalButton" type="button" value="Saiba mais..." id="CupFlavor4Button">
+            </div>
+
+            <div class="menu">
+                <img
+                    class="imgStamp"
+                    src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=500"
+                    alt="Cupcake com cobertura de chocolate">
+                <input class="modalButton" type="button" value="Saiba mais..." id="CupFlavor5Button">
+            </div>
+
+            <div class="menu">
+                <img
+                    class="imgStamp"
+                    src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?w=500"
+                    alt="Cupcake decorado com cobertura">
+                <input class="modalButton" type="button" value="Saiba mais..." id="CupFlavor6Button">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal Detalhes -->
+    <div id="knowMore" class="modal">
+
+        <header>
+            <span id="closeModalButton" class="topright">X</span>
+        </header>
+
+        <div>
+            <p id="txt1" class="infoH"></p>
+            <p id="txt2" class="info"></p>
+            <p id="txt3" class="info"></p>
+        </div>
+
+    </div>
+
+    <!-- Arquivo JavaScript -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
