@@ -1,0 +1,45 @@
+Para realizar alguma operação em um elemento HTML, precisamos encontrar esse elemento no JavaScript, para então alterar seu valor interno, seu estilo, seu foco, e assim por diante. Para isso, temos os métodos descritos a seguir.
+
+
+document.getElementById()
+Seleciona o elemento com base no seu id. Em geral, o id é único, logo o método retorna o elemento exclusivamente. Se houver mais elementos com o mesmo id, ele retornará o primeiro que encontrar.
+
+
+document.getElementsByClassName()
+Seleciona o elemento com base no seu nome de classe. Pode retornar um array de elementos que tenham a mesma classe.
+
+
+document.querySelector('nome')
+Seleciona  um único elemento, o primeiro que satisfaz seu parâmetro,  que pode ser um id, um nome de classe ou mesmo uma tag HTML.
+
+
+document.querySelectorAll('.class1 p')
+
+
+
+click
+Disparado quando um elemento é clicado.
+
+mouseover
+Disparado quando o ponteiro do mouse passa sobre um elemento.
+
+mouseout
+Ocorre quando o ponteiro do mouse sai de um elemento.
+
+keydown
+Disparado quando uma tecla é pressionada.
+
+keyup
+Disparado quando uma tecla é liberada.
+
+change
+Disparado quando o valor de um elemento de entrada muda.
+
+submit
+Disparado quando um formulário é enviado.
+
+focus
+Ocorre quando um elemento recebe foco.
+
+blur
+Disparado quando um elemento perde o foco.
